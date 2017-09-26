@@ -46,6 +46,14 @@ Example: 10.180.88.23
 
 Ip to integer = (10 * 16777216) + (180 * 65536) + (88 * 256) + (23) = 179591191.
 
+The file has to be in sorted order, or else it will result incorrect matches.
+
+Example rows from this file 
+"50331649","50331649","US","United States","Connecticut","Fairfield","41.1412","-73.2637","N/A","DomainDataNotAvailable.com"
+"3731959808","3731963903","KR","Republic of Korea","Gyeonggi-do","Anjung","36.9871","126.927","N/A","DomainDataNotAvailable.com"
+"3589273856","3589273859","DE","Germany","","","51.2993","9.491","N/A","DomainDataNotAvailable.com"
+"3756032002","3756032003","IN","India","Karnataka","Bengaluru","12.9833","77.5833","N/A","DomainDataNotAvailable.com"
+
 ### **networkcontext_1.csv**
 This is a comma separated file necessary to add more specific context about your network.
 This file will be requested by the following modules:
